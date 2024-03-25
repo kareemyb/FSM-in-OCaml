@@ -1,9 +1,3 @@
-(* Sets Implementation for CMSC 330 Project 3
- * Last updated: 8 March 2022
- *
- * Refer to SETS.md for documentation and do not modify this file.
- *)
-
 let rec elem x a =
   match a with
   | h::t -> (h = x) || (elem x t)
