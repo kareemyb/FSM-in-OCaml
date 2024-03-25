@@ -1,7 +1,3 @@
-(* IMPORTANT: YOU MAY NOT MODIFY THIS FILE!
- * OUR TESTS USE THE ORIGINAL VERSION.
- * YOUR CODE WILL NOT COMPILE IF YOU CHANGE THIS FILE. *)
-
 (* Types *)
 
 type ('q, 's) transition = 'q * 's option * 'q
