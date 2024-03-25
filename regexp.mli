@@ -1,9 +1,3 @@
-(* IMPORTANT: YOU MAY NOT MODIFY THIS FILE!
- * OUR TESTS USE THE ORIGINAL VERSION.
- * YOUR CODE WILL NOT COMPILE IF YOU CHANGE THIS FILE. *)
-
-(* This is the type used to describe the form of a regexp *)
-
 type regexp_t =
   | Empty_String
   | Char of char
@@ -11,7 +5,6 @@ type regexp_t =
   | Concat of regexp_t * regexp_t
   | Star of regexp_t
 
-(* These are the regexp functions you must implement *)
 
 val regexp_to_nfa : regexp_t -> (int, char) Nfa.nfa_t
 
